@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REPO_NAME = flitemax/nginxdemo
+        REPO_NAME = "flitemax/nginxdemo"
         IMAGE_TAG = "latest"
         CHAT_ID = "@vijaysamuel"
         BOT_TOKEN = "7734420703:AAEUADW5FrL5ZrgumPFd-nWkMnnmFGdEKJ0"
