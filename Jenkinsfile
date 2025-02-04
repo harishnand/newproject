@@ -35,7 +35,7 @@ pipeline {
             steps {
                 sshagent(['ec2-ssh-key']) {
                     sh """
-                        ssh -o StrictHostKeyChecking=no ${SSH_USER}@${SERVER_IP} <<EOF
+                        ssh -o StrictHostKeyChecking=no ${SSH_USER}@${SERVER_IP} << 'EOF'
                         cd /home/ubuntu/newproject
                         docker-compose down
                         docker-compose pull
