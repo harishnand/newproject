@@ -5,8 +5,8 @@ pipeline {
         REPO_NAME = flitemax/nginx-demo
         IMAGE_TAG = "latest"
         CHAT_ID = "@vijaysamuel"
-        BOT_TOKEN = 7734420703:AAEUADW5FrL5ZrgumPFd-nWkMnnmFGdEKJ0
-        SERVER_IP = 176.34.98.123
+        BOT_TOKEN = "7734420703:AAEUADW5FrL5ZrgumPFd-nWkMnnmFGdEKJ0"
+        SERVER_IP = "176.34.98.123"
         SSH_USER = ubuntu
     }
 
