@@ -52,7 +52,7 @@ pipeline {
                     sh """
                         curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \\
                         -d chat_id=${CHAT_ID} \\
-                        -d text="✅ Deployment Successful on branch: ${env.BRANCH_NAME}"
+                        -d text="✅ Deployment Successful on branch: main"
                     """
                 }
             }
