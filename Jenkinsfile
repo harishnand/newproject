@@ -36,7 +36,7 @@ pipeline {
                 sshagent(['ec2-ssh-key']) {
                     sh """
                         ssh -o StrictHostKeyChecking=no ${SSH_USER}@${SERVER_IP} <<EOF
-                        cd /home/ubuntu/app
+                        cd /home/ubuntu/newproject
                         docker-compose down
                         docker-compose pull
                         docker-compose up -d --force-recreate
