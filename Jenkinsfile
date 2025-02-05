@@ -4,7 +4,7 @@ pipeline {
     environment {
         REPO_NAME = "flitemax/nginxdemo"
         IMAGE_TAG = "latest"
-        CHAT_ID = "@vijaysamuel"
+        CHAT_ID = "1428887418"
         BOT_TOKEN = "7734420703:AAEUADW5FrL5ZrgumPFd-nWkMnnmFGdEKJ0"
         SERVER_IP = "176.34.98.123"
         SSH_USER = 'ubuntu'
